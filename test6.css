@@ -1,0 +1,14 @@
+.higuchi{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+.madoka{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.madoka img{
+    width: 300px;
+    height: 380px; 
+}

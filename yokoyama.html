@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISHIMI YOKOYAMA</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="test3.css">
+    <link rel="stylesheet" href="bealz.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="icon" href="img/yokoyama1.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="head-img">
+            <ul>
+                <li>
+                    <img src="WP/BEA/1.jpg" alt="" class="img-box1">           
+                </li>
+                <li>
+                    <img src="WP/MIKU/1.jpg" alt="" class="img-box2">
+                </li>
+                <li>
+                    <img src="WP/HIGUCHI/1.jpg" alt="" class="img-box3">
+                </li>
+                <li>
+                    <img src="WP/SUBARU/1.jpg" alt="" class="img-box4">
+                </li>
+                <li>
+                    <img src="WP/AYAME/30.jpeg" alt="" class="img-box5">
+                </li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <button><i class="fa-solid fa-bars"></i></button>
+                        <div class="dropdown-content">
+                            <a href="miku.html">MIKU</a>
+                            <a href="bealz.html">BEALZ</a>
+                            <a href="ayame.html">AYAME</a>
+                            <a href="subaru.html">SUBARU</a>
+                            <a href="higuchi.html">HIGUCHI</a>
+                            <a href="yokoyama.html">YOKOYAMA</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="Waifu.html">HOME</a>
+                </li>
+                <li>
+                    <a href="miku.html">MIKU</a>
+                </li>
+                <li>
+                    <a href="bealz.html" >BEALZ</a>
+                </li>
+                <li>
+                    <a href="ayame.html">AYAME</a>
+                </li>
+                <li>
+                    <a href="subaru.html">SUBARU</a>
+                </li>
+                <li>
+                    <a href="higuchi.html">HIGUCHI</a>
+                </li>
+                <li style="background-color: red;">
+                    <a href="test3.html" style="color: white;">YOKOYAMA</a>
+                </li>
+            </ul>
+        </div>
+        <div class="yoko">
+            <div class="ishimi">
+                <h1>ISHIMI YOKOYAMA</h1>
+            </div>
+            <a href="imgyokoyama.html"><img src="img/yokoyama2.jpg"></a>
+        </div>
+        <div class="footer">
+            <div class="footer-box">
+                <div class="icon">
+                    <a href="Waifu.html"><img src="WP/BEA/21 (77).jpg" alt=""></a>
+                </div>
+                <p>I'M MAKE THIS FOR FUN AND BECAUSE OF I LOVE THESE CHARACTERS.</p>
+                <p>ALL THESE CHARACTERS ARE MY WAIFUS.</p>
+            </div>
+            <div class="footer-box1">
+                <p style="margin: 30px 0px;">BELOW ARE LINK TO <i class="fa-brands fa-youtube" style="color: red;"></i></p>
+                <a href="https://www.youtube.com/@HakosBaelz/about"><img src="WP/BEA/21 (21).jpg" alt=""></a>
+                <a href="https://www.youtube.com/@OozoraSubaru"><img src="WP/SUBARU/2 (2).jpg" alt=""></a>
+                <a href="https://www.youtube.com/@NakiriAyame"><img src="WP/AYAME/2.3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){                   // change pic 
+        $('.img-box1').mouseover(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/BEA/12.jpg")
+        });
+        $('.img-box1').mouseout(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/BEA/1.jpg")
+        });
+        $('.img-box2').mouseover(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/MIKU/1.7.png")
+        });
+        $('.img-box2').mouseout(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/MIKU/1.jpg")
+        });
+        $('.img-box3').mouseover(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/HIGUCHI/3 (41).jpg")
+        });
+        $('.img-box3').mouseout(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/HIGUCHI/1.jpg")
+        });
+        $('.img-box4').mouseover(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/SUBARU/2 (54).jpg")
+        });
+        $('.img-box4').mouseout(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/SUBARU/1.jpg")
+        });
+        $('.img-box5').mouseover(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/AYAME/20.jpg")
+        });
+        $('.img-box5').mouseout(function(){
+            var eThis = $(this)
+            eThis.attr("src","WP/AYAME/30.jpeg")
+        });
+    });
+</script>
+</html>

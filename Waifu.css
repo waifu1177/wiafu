@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.menu{                                                   /* ----------Menu List---------- */
+    width: 100%;
+    float: left;
+    background-color: #ccc;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul li .dropdown{                                  /* ----------Menu Dropdown---------- */
+    position: absolute;
+    right: 270px;
+    display: inline-block;
+    position: relative;  
+}
+.menu ul li i{
+    padding: 6px;
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li .dropdown-content{
+    display: none;
+    text-align: left;
+    position: absolute;
+    width: auto;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+.menu ul li .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .menu ul li .dropdown-content a{
+    display: block;
+    background-color: white;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+  }
+.menu ul li .dropdown-content a:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+.menu ul li a{
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: bold;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.head-img{                                           /* ----------Head img---------- */
+    width: 100%;
+    height: 170px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+.head-img ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.head-img ul li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.head-img ul li .img-box1{                          /* ----------Box Img Changes---------- */
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box2{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box3{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box4{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box5{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.container-box{                                         /* ----------Container Box----------*/
+    width: 70%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 15%;
+    background: #ffffff;
+    box-shadow: 2px 3px 3px 2px rgb(0 0 0 / 20%);
+}
+.container-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container-box ul li{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+.container-box ul li:last-child{
+    margin-right: 0;
+}
+.container-box ul li img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.waifu{                                                     /* ----------Waifu---------- */
+    width: 100%;
+    background-color: white; 
+    float: left;
+}
+.waifu-writing{
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 2px 3px 3px 2px rgb(0 0 0 / 20%);
+    background: #ffffff;
+}
+.waifu h1{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.waifu h2{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.waifu h3{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.waifu h4{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.video0{                                                             /* ----------Video---------- */
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background: #ffffff;
+    box-shadow: 2px 3px 3px 2px rgb(0 0 0 / 20%);
+    float: left;
+}
+.video-box{
+    width: 32%; 
+    height: auto;
+    margin-left: 1%;
+    float: left;
+}
+.video-box1{
+    width: 48%; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 1%;
+    float: left;
+}
+.video-txt{
+    width: 100%;
+    height: 70px; 
+}
+.video-txt p{
+    color: #000000;
+    text-align: center;
+}
+.footer{                                                             /* ----------Footer---------- */
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-top: 600px;
+    background-color: rgb(83, 79, 79);
+}
+.footer-box{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.footer-box .icon{                                /* ---------------Footer Icon--------------  */
+    width: 95px;
+    height: 95px;
+    margin: 15px 50px 50px 150px;
+}
+.footer-box .icon img{
+    width: 100%; 
+    height: 100%; 
+}
+.footer-box p{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin: 0px 0px 5px 150px;
+}
+.footer-box1{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.footer-box1 p{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin: 30px;
+}
+.footer-box1 img{
+    width: 20%;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}

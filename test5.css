@@ -1,0 +1,14 @@
+.subaru{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+.oozora{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.oozora img{
+    width: 200px;
+    height: 280px; 
+}

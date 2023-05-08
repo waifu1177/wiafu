@@ -1,0 +1,44 @@
+.footer{                                                             /* ----------Footer---------- */
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-top: 600px;
+    background-color: rgb(83, 79, 79);
+}
+.footer-box{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.footer-box .icon{                                /* ---------------Footer Icon--------------  */
+    width: 95px;
+    height: 95px;
+    margin: 15px 50px 50px 150px;
+}
+.footer-box .icon img{
+    width: 100%; 
+    height: 100%; 
+}
+.footer-box p{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin: 0px 0px 5px 150px;
+}
+.footer-box1{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.footer-box1 p{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin: 30px;
+}
+.footer-box1 img{
+    width: 20%;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}

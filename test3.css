@@ -1,0 +1,14 @@
+.ishimi{
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.yoko{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.yoko img{
+    width:200px;
+    height: 380px; 
+}

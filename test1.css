@@ -1,0 +1,14 @@
+.hakos{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+.bea{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.bea img{
+    width: 200px;
+    height: 280px; 
+}

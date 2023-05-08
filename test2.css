@@ -1,0 +1,14 @@
+.miku{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+.nakano{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.nakano img{
+    width: 200px;
+    height: 280px; 
+}

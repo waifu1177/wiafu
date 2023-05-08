@@ -1,0 +1,14 @@
+.ayame{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+.nakiri{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.nakiri img{
+    width: 200px;
+    height: 280px; 
+}

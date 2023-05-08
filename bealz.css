@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu{
+    width: 100%;
+    float: left;
+    background-color:  #ccc;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li .dropdown{                                  /* ----------Menu Dropdown---------- */
+    position: absolute;
+    right: 270px;
+    display: inline-block;
+    position: relative;  
+}
+.menu ul li i{
+    padding: 6px;
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li .dropdown-content{
+    display: none;
+    text-align: left;
+    position: absolute;
+    width: auto;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.menu ul li .dropdown:hover .dropdown-content{
+    display: block;
+}
+.menu ul li .dropdown-content a{
+    display: block;
+    background-color: white;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu ul li .dropdown-content a:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+.menu ul li a{
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: bold;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.head-img{
+    width: 100%;
+    height: 170px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+.head-img ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.head-img ul li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.head-img ul li .img-box1{                          /* ----------Box Img Changes---------- */
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box2{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box3{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box4{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li .img-box5{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+.head-img ul li img{
+    width: 100%;
+    height: 170px;
+    float: left;
+}
+p{
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+}
